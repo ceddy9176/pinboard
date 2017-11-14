@@ -1,0 +1,129 @@
+body {
+  background-image: url("../img/cork-board.jpg");
+  position: relative;
+}
+
+@@font-face {
+  font-family: "levimarker";
+  src: url("../fonts/LEVIMARKER.TTF") format("truetype");
+
+}
+img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.polaroid1 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 60px;
+  left: auto;
+  z-index: 1;
+}
+
+.polaroid2 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 60px;
+  left: 500px;
+  z-index: 1;
+}
+
+.polaroid3 {
+  display: block;
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 60px;
+  left: 1000px;
+  z-index: 1;
+}
+
+.penguin {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 95px;
+  left: 40px;
+  z-index: 0;
+}
+
+.crab {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 95px;
+  left: 540px;
+  z-index: 0;
+}
+
+.pug {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 95px;
+  left: 1040px;
+  z-index: 0;
+}
+
+.text1 {
+  font-family: levimarker;
+  font-size: 60px;
+  position: absolute;
+  z-index: 2;
+  top: 313px;
+  left: 105px;
+  color: crimson;
+}
+.text2 {
+  font-family: levimarker;
+  font-size: 60px;
+  position: absolute;
+  z-index: 2;
+  top: 313px;
+  left: 640px;
+  color: crimson;
+}
+.text3 {
+  font-family: levimarker;
+  font-size: 60px;
+  position: absolute;
+  z-index: 2;
+  top: 313px;
+  left: 1150px;
+  color: crimson;
+}
+
+.pin1 {
+  display: block;
+  position: absolute;
+  width: 65px;
+  height: auto;
+  z-index: 2;
+  top: 46px;
+  left: 130px;
+}
+
+.pin2 {
+  display: block;
+  position: absolute;
+  width: 65px;
+  height: auto;
+  z-index: 2;
+  top: 46px;
+  left: 630px;
+}
+
+.pin3 {
+  display: block;
+  position: absolute;
+  width: 65px;
+  height: auto;
+  z-index: 2;
+  top: 46px;
+  left: 1130px;
+}
